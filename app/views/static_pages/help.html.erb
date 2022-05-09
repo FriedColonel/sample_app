@@ -1,0 +1,11 @@
+<% provide :title, t(".title") %>
+<div class="center jumbotron">
+  <h1><%= t(".name") %></h1>
+  <p>
+    <%= t(".des1") %>
+    <%= link_to t(".help_page"), Settings.link.rails_help %>.
+    <%= t(".des2") %>
+    <em><%= link_to t("ruby_on_rails_tutorial"), Settings.link.rails_tutorials_book %></em>
+    <%= t(".book") %>.
+  </p>
+</div>

@@ -31,3 +31,51 @@
 
 en:
   hello: "Hello world"
+  ruby_on_rails: "Ruby on Rails"
+  ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+  base_title: "Ruby on Rails tutorial sample app"
+  static_pages:
+    home:
+      title: "Home"
+      welcome: "Welcome to the Sample App"
+      sign_up_now: "Sign up now!"
+      description_1: "This is the home page for the"
+      description_2: "sample application"
+    about:
+      title: "About"
+      name: "About"
+      the: "The"
+      learn_enough: "learn enough"
+      book: "book"
+      des1: "family of tutorials, is a"
+      path_of_the: "path of the"
+      and: "and"
+      screencast: "screencast series"
+      des2: "to teach web development with"
+      des3: "This is the sample app for the tutorial."
+    contact:
+      title: "Contact"
+      name: "Contact"
+      des: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+    help:
+      title: "Help"
+      name: "Help"
+      des1: "Get help on the Ruby on Rails Tutorial at the"
+      help_page: "Rails Tutorial help page"
+      des2: "To get help on this sample app, see the"
+  users:
+    new:
+      title: "Sign Up"
+      name: "Sign Up"
+      des: "This will be a sign up page for new users."
+  layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+    footer:
+      author: "Michael Harlt"
+      about: "About"
+      contact: "Contact"
+      news: "News"
