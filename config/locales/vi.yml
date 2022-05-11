@@ -67,6 +67,7 @@ vi:
       name: "Đăng nhập"
       submit: "Đăng nhập"
       new_user: "Bạn là người dùng mới?"
+      remember_me: "Lưu đăng nhập của tôi ở trên máy tính này"
       sign_up_now: "Đăng ký ngay!"
     create:
       invalid: "Email/Password không hợp lệ"
