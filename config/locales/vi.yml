@@ -34,6 +34,15 @@ vi:
       title: "Đăng ký"
       name: "Đăng ký"
       des: "Đây sẽ là trang đăng ký cho người dùng mới."
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+      name: "Tên tài khoản"
+      email: "Email"
+      password: "Mật khẩu"
+    create:
+      success: "Chào mừng đến với Sample App"
+    show:
+      not_found: "Không tìm thấy người dùng"
   layouts:
     header:
       home: "Trang chủ"
@@ -44,3 +53,6 @@ vi:
       about: "Về chúng tôi"
       contact: "Liên hệ"
       news: "Tin tức"
+  shared:
+    error_messages:
+      des: "Form có"
