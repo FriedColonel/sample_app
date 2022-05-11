@@ -8,3 +8,12 @@ link:
   rails_help: "https://www.railstutorial.org/help"
   author: "https://www.michaelhartl.com/"
   news: "https://news.railstutorial.org/"
+
+validate:
+  email:
+    max_length: 255
+    regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  name:
+    max_length: 50
+  password:
+    min_length: 6
