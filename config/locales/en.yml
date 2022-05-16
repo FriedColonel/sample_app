@@ -69,6 +69,15 @@ en:
       title: "Sign Up"
       name: "Sign Up"
       des: "This will be a sign up page for new users."
+      confirmation: "Password Confirmation"
+      submit: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+    create:
+      success: "Welcome to the Sample App!"
+    show:
+      not_found: "Not found user"
   layouts:
     header:
       home: "Home"
@@ -79,3 +88,6 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+  shared:
+    error_messages:
+      des: "The form contains"

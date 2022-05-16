@@ -8,6 +8,7 @@ link:
   rails_help: "https://www.railstutorial.org/help"
   author: "https://www.michaelhartl.com/"
   news: "https://news.railstutorial.org/"
+  gravatar: "https://secure.gravatar.com/avatar/"
 
 validate:
   email:
