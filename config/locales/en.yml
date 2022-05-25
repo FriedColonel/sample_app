@@ -83,6 +83,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
     footer:
       author: "Michael Harlt"
       about: "About"
@@ -91,3 +96,12 @@ en:
   shared:
     error_messages:
       des: "The form contains"
+  sessions:
+    new:
+      title: "Log in"
+      name: "Log in"
+      submit: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+    create:
+      invalid: "Invalid email/password combination"

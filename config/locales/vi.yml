@@ -48,6 +48,11 @@ vi:
       home: "Trang chủ"
       help: "Hỗ trợ"
       log_in: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
     footer:
       author: "Michael Harlt"
       about: "Về chúng tôi"
@@ -56,3 +61,12 @@ vi:
   shared:
     error_messages:
       des: "Form có"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      name: "Đăng nhập"
+      submit: "Đăng nhập"
+      new_user: "Bạn là người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+    create:
+      invalid: "Email/Password không hợp lệ"
