@@ -43,6 +43,26 @@ vi:
       success: "Chào mừng đến với Sample App"
     show:
       not_found: "Không tìm thấy người dùng"
+    index:
+      title: "Tất cả người dùng"
+      name: "Tất cả người dùng"
+      will_paginate:
+        previous: "Trước"
+        next: "Tiếp"
+      login_first: "Bạn phải đăng nhập trước!"
+    user:
+      delete_user: "Xóa"
+      confirm: "Bạn có chắc chắn?"
+    edit:
+      title: "Cập nhật người dùng"
+      name: "Cập nhật thông tin cá nhân của bạn"
+      confirmation: "Xác nhận Password"
+      submit: "Lưu thay đổi"
+      change_avatar: "Thay ảnh đại diện"
+    update:
+      success: "Cập nhật thông tin thành công"
+    destroy:
+      success: "Người dùng đã được xóa."
   layouts:
     header:
       home: "Trang chủ"

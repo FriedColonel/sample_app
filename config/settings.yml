@@ -9,6 +9,7 @@ link:
   author: "https://www.michaelhartl.com/"
   news: "https://news.railstutorial.org/"
   gravatar: "https://secure.gravatar.com/avatar/"
+  gravatar_email: "https://www.gravatar.com/emails"
 
 validate:
   email:
