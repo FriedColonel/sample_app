@@ -78,6 +78,27 @@ en:
       success: "Welcome to the Sample App!"
     show:
       not_found: "Not found user"
+    index:
+      title: "All users"
+      name: "All users"
+      will_paginate:
+        previous: "Previous"
+        next: "Next"
+      login_first: "You must be logged in first"
+    user:
+      delete_user: "Delete"
+      confirm: "Are you sure?"
+    edit:
+      title: "Update user"
+      name: "Update your profile"
+      confirmation: "Password Confirmation"
+      submit: "Save changes"
+      change_avatar: "Change"
+      login_first: "Please log in."
+    update:
+      success: "Profile updated successfully"
+    destroy:
+      success: "User deleted"
   layouts:
     header:
       home: "Home"

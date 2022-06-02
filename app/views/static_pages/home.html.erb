@@ -6,7 +6,9 @@
     <%= link_to t("ruby_on_rails_tutorial"), Settings.link.rails_tutorials %>
     <%= t(".description_2") %>
   </h2>
-  <%= link_to t(".sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
+  <% if !logged_in? %>
+    <%= link_to t(".sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
+  <% end %>
 </div>
 
 <%= link_to image_tag("rails.svg", class: "rails_logo", alt: "Rails logo"),
