@@ -76,6 +76,7 @@ en:
       password: "Password"
     create:
       success: "Welcome to the Sample App!"
+      info: "Please check your email to activate your account!"
     show:
       not_found: "Not found user"
     index:
@@ -127,3 +128,16 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      warning: "Account not activated. Check your email for the activation link."
+  user_mailer:
+    account_activation:
+      sample_app: "Sample App"
+      subject: "Account Activation"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+  account_activations:
+    edit:
+      user_not_found: "User not found"
+      invalid: "Invalid activation link"
+      activated: "Account activated successfully!"

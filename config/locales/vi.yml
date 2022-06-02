@@ -41,6 +41,7 @@ vi:
       password: "Mật khẩu"
     create:
       success: "Chào mừng đến với Sample App"
+      info: "Vui lòng kiểm tra email để kích hoạt tài khoản!"
     show:
       not_found: "Không tìm thấy người dùng"
     index:
@@ -91,3 +92,16 @@ vi:
       sign_up_now: "Đăng ký ngay!"
     create:
       invalid: "Email/Password không hợp lệ"
+      warning: "Tài khoản chưa được kích hoạt. Kiểm tra email để kích hoạt tài khoản."
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      hi: "Xin chào"
+      welcome: "Chào mừng đến với Sample App! Click vào link dưới đây để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"
+      sample_app: "Sample App"
+  account_activations:
+    edit:
+      user_not_found: "Không tìm thấy người dùng"
+      invalid: "Liên kết không hợp lệ"
+      activated: "Account activated successfully!"
