@@ -19,3 +19,6 @@ validate:
     max_length: 50
   password:
     min_length: 6
+
+mailer:
+  default_from: "norely@example.com"
