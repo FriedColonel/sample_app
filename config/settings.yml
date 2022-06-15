@@ -22,3 +22,6 @@ validate:
 
 mailer:
   default_from: "norely@example.com"
+
+password_reset:
+  expire_hour: 2
